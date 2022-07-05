@@ -8,6 +8,7 @@ public class Carteira {
     private List<Acao> carteira;
     AcaoService acaoService;
 
+    
     public Carteira(AcaoService acaoService){
         this.acaoService = acaoService;
         carteira = new ArrayList<>();
